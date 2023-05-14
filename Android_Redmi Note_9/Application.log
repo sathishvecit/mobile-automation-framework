@@ -1,0 +1,7 @@
+[Android_Redmi Note_9 INFO ] 2023-05-14 17:27:56.859 ServerManager:20 - starting appium server
+[Android_Redmi Note_9 INFO ] 2023-05-14 17:28:04.896 ServerManager:29 - Appium server started
+[Android_Redmi Note_9 INFO ] 2023-05-14 17:28:04.947 DriverManager:28 - initializing Appium driver
+[Android_Redmi Note_9 INFO ] 2023-05-14 17:28:04.980 PropertyManager:17 - loading config properties
+[Android_Redmi Note_9 INFO ] 2023-05-14 17:28:04.984 CapabilitiesManager:18 - getting capabilities
+[Android_Redmi Note_9 INFO ] 2023-05-14 17:28:05.003 CapabilitiesManager:34 - appUrl isC:\Users\91934\Desktop\Commit\appium-cucumberbdd-master\src\test\resources\apps\app-release.apk
+[Android_Redmi Note_9 INFO ] 2023-05-14 17:28:18.993 DriverManager:40 - Driver is initialized

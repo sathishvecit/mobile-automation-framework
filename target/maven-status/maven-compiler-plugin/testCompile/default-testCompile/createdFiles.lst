@@ -1,0 +1,13 @@
+com\qa\pages\TermsConsent.class
+com\qa\pages\CreatingWallets.class
+com\qa\pages\WelcomeScreen.class
+com\qa\stepdef\Hooks.class
+com\qa\stepdef\LyowalletSteps.class
+com\qa\pages\BasePage$1.class
+com\qa\pages\WalletsScreen.class
+com\qa\runners\MyRunnerTest.class
+com\qa\pages\BasePage.class
+com\qa\pages\BasePage$2.class
+com\qa\pages\BackupRecoveryPhrase.class
+com\qa\pages\SettingsScreen.class
+com\qa\pages\EnterPinScreen.class
