@@ -12,6 +12,7 @@ public class TermsConsent extends BasePage {
     //Method to click create new wallet
     public EnterPinScreen tapLetsStart() {
         click(letsStart, "press lets start");
+        waitForSecs(2);
         return new EnterPinScreen();
     }
 }

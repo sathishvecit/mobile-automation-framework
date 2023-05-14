@@ -18,6 +18,7 @@ public class WalletsScreen extends BasePage{
     To get the Text of buttons like receive, send, exchange, buySell
      */
     public String receiveOption() {
+        waitForSecs(30);
         String reciveOptionTxt = getText(receive, "Receive option is-");
         return reciveOptionTxt;
     }
@@ -30,7 +31,7 @@ public class WalletsScreen extends BasePage{
         return exchangeOptionTxt;
     }
     public String buySell() {
-        String buySellOptionTxt = getText(exchange, "BuySell option is-");
+        String buySellOptionTxt = getText(buySell, "BuySell option is-");
         return buySellOptionTxt;
     }
     public SettingsScreen tapSettings() {

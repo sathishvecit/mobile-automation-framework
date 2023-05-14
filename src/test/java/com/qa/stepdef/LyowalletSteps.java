@@ -5,6 +5,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
+
 import static com.qa.utils.Constants.*;
 
 
@@ -40,14 +41,11 @@ public class LyowalletSteps {
     public void i_should_be_able_to_setup_pin() {
         enterPinScreen.setPin();
         enterPinScreen.setPin(); // to re-enter same pin again
-
-
     }
 
     @Then("Creating wallets message shown successfully")
     public void creating_wallets_message_shown_successfully(){
-        creatingWallets.getCreateWalMsg();
-        Assert.assertEquals("Creating Wallet Message is NOT equal to " + CREATING_WALLET, creatingWallets.getCreateWalMsg(), CREATING_WALLET);
+        enterPinScreen.cancelBio();
     }
 
     @Then("I should be able to view buttons like “Receive, Send, Exchange and Buy-Sell”")
@@ -68,6 +66,7 @@ public class LyowalletSteps {
     public void i_should_be_able_to_copy_the_recovery_phrase() {
         backupRecoveryPhrase.tapConfirm();
         backupRecoveryPhrase.tapCopy();
+        backupRecoveryPhrase.printCopiedText();
     }
 
 

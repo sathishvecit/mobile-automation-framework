@@ -39,6 +39,14 @@ public class BasePage {
         wait.until(ExpectedConditions.visibilityOfElementLocated(e));
     }
 
+    public void waitForSecs(int waitSeconds) {
+        try {
+            Thread.sleep(waitSeconds*1000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
     public void clear(MobileElement e) {
         waitForVisibility(e);
         e.clear();

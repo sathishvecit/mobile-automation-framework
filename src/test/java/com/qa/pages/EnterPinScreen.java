@@ -18,7 +18,7 @@ public class EnterPinScreen extends BasePage {
     @AndroidFindBy(xpath = "(//*[contains(@class,'TextView')])[6]")
     private MobileElement numFour;
 
-    @AndroidFindBy(id = "button2")
+    @AndroidFindBy(xpath = "//*[contains(@resource-id,'button2')]")
     private MobileElement cancelBiomet;
 
     public EnterPinScreen() {
@@ -34,6 +34,7 @@ public class EnterPinScreen extends BasePage {
         click(numThree, "press pin 3");
         return this;
     }
+
     /*
     Methods to cancel biometric popup
      */
