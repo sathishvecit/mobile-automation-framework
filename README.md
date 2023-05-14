@@ -34,6 +34,6 @@ Framework implements below best practices
 -Could be Improvised:
   - Realised that there were no id present almost in all the pages 
   - If resource id present in the DOM it would have made the job easier
--Issues Faced:
+-Issues Faced::
   - In Appium inspector if we search the element, taking almost 2  mins to fetch 
   - While Implementing appium server to start in program, faced java exceptions and version compatibility issue.
